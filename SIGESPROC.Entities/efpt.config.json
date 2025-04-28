@@ -1,0 +1,473 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "SIGESPROCContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "Entities",
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "SIGESPROC.Entities",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "Tables": [
+      {
+         "Name": "[Acce].[tbPantallas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Acce].[tbPantallasPorRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Acce].[tbRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Acce].[tbUsuarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Flet].[tbFletesControlCalidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Flet].[tbFletesDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Flet].[tbFletesEncabezado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Flet].[tbIncidenciasPorFletes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbBancos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbBitacoraTasasCambio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbCargos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbCiudades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbEmpleados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbEmpleados_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbEstados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbEstadosCiviles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbImpuestos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbImpuestos_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbMetodosPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbMonedas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbNiveles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbPaises]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbTasasCambio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbTiposProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Gral].[tbUnidadesMedida]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbBitacoraInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbBodegas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbBodegasPorInsumo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbCategorias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbComprasDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbComprasDetallesDirecciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbComprasDetallesDireccionesPorMaquinaria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbComprasEncabezado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbCotizaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbCotizacionesDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbCotizacionesPorDocumentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbEquiposSeguridad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbEquiposSeguridadPorBodegas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbEquiposSeguridadPorProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbInsumosPorMedidas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbInsumosPorProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbMaquinarias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbMaquinariasPorProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbMateriales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Insu].[tbSubcategorias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbAbonosPorPrestamos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbAbonosPorPrestamos_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbCategoriasViaticos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbCategoriasViaticos_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbCostoPorActividad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbCostoPorActividad_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbDeducciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbDeducciones_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbDeduccionesPorEmpleados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbDeduccionesPorEmpleados_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbDeduccionesPorPlanilla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbDeduccionesPorPlanilla_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbFrecuencias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbFrecuencias_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbPlanillaDetalles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbPlanillaDetalles_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbPlanillas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbPlanillas_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbPrestamos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbPrestamos_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbViaticosDetalles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbViaticosDetalles_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbViaticosEncabezados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Nomi].[tbViaticosEncabezados_Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbActividades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbActividadesPorEtapas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbAlertas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbControlDeCalidadesPorActividades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbDocumentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbEquiposSeguridadPorActividades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbEstadosProyectos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbEtapas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbEtapasPorProyectos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbGestionesAdicionales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbGestionRiesgos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbImagenesPorControlesDeCalidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbImagenesPorGestionesAdicionales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbImagenesPorIncidencias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbIncidenciasPorActividades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbIncidentes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbInsumosPorActividades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbNotificaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbNotificacionesAlertarPorUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbPagos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbPresupuestosDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbPresupuestosEncabezado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbPresupuestosPorTasasCambio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbProyectos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbReferenciasCeldas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbRentaMaquinariasPorActividades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbRetrasos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Proy].[tbTokens]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbAgentesBienesRaices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbBienesRaices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbDocumentosBienRaiz]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbEmpresasBienesRaices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbImagenesPorProcesosVentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbMantenimientos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbProcesosVentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbProyectosConstruccionBienesRaices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbTerrenos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Raiz].[tbTiposDocumentos]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "mssql-178321-db-0.SIGESPROC",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

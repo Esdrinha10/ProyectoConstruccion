@@ -1,0 +1,53 @@
+const express = require('express');
+const admin = require('firebase-admin');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+
+// Inicializar Firebase Admin
+const serviceAccount = require('./firebase-admin.json');
+
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount)
+});
+
+const app = express();
+
+// Habilitar CORS
+app.use(cors());
+app.use(bodyParser.json());
+
+app.post('/send-notification', async (req, res) => {
+    const token = req.body.token;
+    const data = req.body.data;
+
+    // Mostrar en consola el token y la URL del click_action antes de enviar la notificación
+    console.log('Tokens a los que se enviará la notificación:', token);
+    console.log('URL enviada en el click_action:', data.click_action);
+
+    if (token && token.length > 0) {
+        try {
+            const response = await admin.messaging().sendEachForMulticast({
+                tokens: token,
+                notification: {
+                    title: data.title || 'Título de Notificación',
+                    body: data.body || 'Mensaje de la Notificación',
+                },
+                data: {
+                    click_action: data.click_action
+                }
+            });
+            res.status(200).send('Notificación enviada con éxito');
+        } catch (error) {
+            console.error('Error al enviar la notificación:', error);
+            res.status(500).send('Error al enviar la notificación');
+        }
+    } else {
+        res.status(400).send('Token no proporcionado');
+    }
+});
+
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en el puerto ${PORT}`);
+});
